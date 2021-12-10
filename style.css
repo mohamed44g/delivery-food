@@ -1,0 +1,206 @@
+.sm-nav-par
+{
+    display: none;
+}
+
+@media only screen and (max-width: 1199.98px)
+{
+    .navpar
+    {
+        display: none;
+    }
+    .sm-nav-par
+    {
+        display: grid;
+    }
+
+    #content
+    {
+        text-align: center;
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 767.98px)
+
+{
+    #content
+    {
+        text-align: center;
+    }
+    .form
+    {
+        position: relative;
+        left: 10%;
+    }
+    .header-img
+    {
+      
+       width: 80%;
+       margin-right: 23%;
+    }
+}
+
+.form input
+{
+   height: 60px;
+   width: 70%;
+   border: 2px solid #22c761;
+   border-radius: 10px;
+}
+.form button
+{
+    background-color: #22c761;
+    height: 60px;
+    color: white;
+    width: 20%;
+    border: 10px solid #22c761;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.button
+{
+    position: relative;
+    right: 20%;
+}
+  
+#content
+{
+    margin-top: 180px;
+}
+
+
+
+.foods
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.food
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.location-text
+{
+    font-size: 21px;
+    display: inline-block;
+}
+
+.location-text1
+{
+    color: #36BD59; 
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    font-size: 1rem;
+    display: inline;
+}
+
+
+
+.element
+{
+    height: 400px;
+    background-color: #FFFFFF;
+    border: 1.2px solid #EFEFEF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+.element h3
+{
+    position: relative;
+}
+
+#heart
+{
+    position: relative;
+    left: 140px;
+}
+
+#share
+{
+    position: relative;
+    left: 50px;
+}
+
+
+#card
+{
+    gap: 10px;
+}
+
+.appstore
+{
+    width: 10rem;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 15px;
+}
+
+#bottom
+{
+    position: relative;
+    left: 5%;
+    right: 20%;
+    gap: 10px;
+    height: 12em;
+    width: 90%;
+    background-color: #e23f16;
+    border: #e23f16;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+
+#form
+{
+    height: 4.5em;
+    width: 100%;
+}
+.list
+{
+    opacity: 0.8;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(70, 68, 68);
+}
+
+.f-background
+{
+    width: 100%;
+    background-color: #f8f9fa;
+    margin-top: 30px;
+}
+.footer
+{
+    padding-top: 50px;
+}
+
+.FAQ-list
+{
+    list-style: none;
+    padding: 0px;
+}
+.FAQ-list a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+.FAQ-list li
+{
+    margin: 10px;
+}
